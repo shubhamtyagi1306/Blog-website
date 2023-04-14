@@ -4,19 +4,47 @@
 }
 
 .navigation {
+    font-family: var(--font1);
     height: 74px;
-    background-color: yellow;
+    /* background-color: yellow; */
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+.nav-left {
+    font-size: 20px;
+    display: flex;
+}
+
+.nav-left ul {
+    display: flex;
+    align-items: center;
+    margin: 0 78px;
+    font-size: 18px;
+}
+
+.nav-left ul li {
+    list-style: none;
+    margin: 0 14px;
+    font-family: var(--font2);
+}
+
+.nav-left ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-right{
+
+}
+
 .content {
 height: 95PX;
-background-color: blue;
+/* background-color: blue; */
 }
 
 .footer {
     height: 50px;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
 }
