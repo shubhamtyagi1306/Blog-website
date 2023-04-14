@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navigation {
+    height: 74px;
+    background-color: yellow;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content {
+height: 95PX;
+background-color: blue;
+}
+
+.footer {
+    height: 50px;
+    background-color: blueviolet;
+}
