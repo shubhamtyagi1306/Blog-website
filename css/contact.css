@@ -1,0 +1,19 @@
+.contact-content {
+    display: flex;
+    height: 80vh;
+    margin-top: 32px;
+    /* background-color: blue; */
+    padding: 10px;
+    /* position: relative; */
+    overflow: hidden;
+} 
+
+.contact-content::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: inherit;
+    opacity: 0.15;
+    z-index: -1;
+}
