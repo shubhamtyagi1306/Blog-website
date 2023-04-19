@@ -4,6 +4,7 @@
 }
 
 .navigation {
+    margin-top: 25px;
     font-family: var(--font1);
     height: 74px;
     /* background-color: yellow; */
@@ -13,15 +14,19 @@
 }
 
 .nav-left {
-    font-size: 20px;
     display: flex;
+}
+
+.nav-left span {
+    font-size: 35px;
+    padding-top: 10px;
 }
 
 .nav-left ul {
     display: flex;
     align-items: center;
     margin: 0 78px;
-    font-size: 18px;
+    font-size: 22px;
 }
 
 .nav-left ul li {
@@ -48,9 +53,20 @@
 .content {
     display: flex;
     height: 395PX;
+    margin-top: 32px;
     /* background-color: blue; */
     padding: 10px;
+    /* position: relative; */
 }
+
+/* .content::after {
+    content: "";
+    background-image: url('../img/vecteezy_typing-on-laptop_5559881.jpg');
+    position: absolute;
+    width: 300px;
+    height: inherit;
+    opacity: 0.15;
+} */
 
 .content-left {
     font-family: var(--font1);
@@ -58,6 +74,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    /* padding: 50px; */
 }
 
 .content-right {
@@ -74,12 +91,29 @@
 }
 
 .home-articles {
-    height: 455px;
-    background-color: red;
+    /* height: 455px; */
+    /* background-color: red; */
+    padding: 18px;
+    background-color: rgb(248, 239, 239, 0.5);
+    margin-top: 24px;
 }
 
 .home-article {
+    display: flex;
+    margin: 25px;
+}
 
+.home-article-img {
+}
+
+.home-article-content {
+    align-self: center;
+    padding: 0 25px;
+}
+
+.home-article-content a {
+    text-decoration: none;
+    color: black;
 }
 
 .footer {
