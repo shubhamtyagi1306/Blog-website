@@ -31,6 +31,11 @@
     margin: auto;
 }
 
+.mx-1 {
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
 .btn {
     padding: 0px 15px;
     padding-top: 2px;
@@ -61,4 +66,8 @@
     width: 52vw;
     padding: 10px 6px;
     margin: 7px 0;
+    font-size: 18px;
+    font-family: var(--font1);
+    border: 2px solid var(--main-bg-color);
+    border-radius: 5px;
 }
