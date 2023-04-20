@@ -96,6 +96,21 @@
     padding: 18px;
     background-color: rgb(248, 239, 239, 0.5);
     margin-top: 24px;
+    position: relative;
+}
+
+.year-box {
+    position: absolute;
+    /* background-color: red; */
+    right: 100px;
+    top: 100px;
+    width: 234px;
+    height: 255px;
+    font-size: 18px;
+}
+
+.year-box div {
+    margin: 12px 0;
 }
 
 .home-article {
