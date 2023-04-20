@@ -6,7 +6,7 @@
 .navigation {
     margin-top: 25px;
     font-family: var(--font1);
-    height: 74px;
+    /* height: 74px; */
     /* background-color: yellow; */
     display: flex;
     justify-content: space-between;
@@ -52,7 +52,7 @@
 
 .content {
     display: flex;
-    height: 395PX;
+    height: 100%;
     margin-top: 32px;
     /* background-color: blue; */
     padding: 10px;
